@@ -1,0 +1,106 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #659DBD;
+  --ifm-color-primary-dark: #5392B5;
+  --ifm-color-primary-darker: #4885A7;
+  --ifm-color-primary-darkest: #407695;
+  --ifm-color-primary-light: #77A8C5;
+  --ifm-color-primary-lighter: #89B4CC;
+  --ifm-color-primary-lightest: #9BBFD4;
+  --ifm-code-font-size: 95%;
+  --ifm-footer-padding-vertical: 21.5px;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.custom-back {
+  background-image: url("../../static/img/indonesia_komodo_boat.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.transparent-back {
+  background: rgba(0,0,0,0);
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-big-clear {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 500px;
+  width: 100%;
+  overflow: visible;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 0px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #9BBFD4;
+  padding-top: 3px;
+  padding-bottom: 26px;
+}
+
+.footer__copyright {
+  color: black;
+}
+
+a > img {
+  vertical-align: middle;
+}
+
+.button .img-top {
+  display: none;
+  top: 0;
+  left: 0;
+}
+.button:hover .img-top {
+  display: inline;
+}
+.button .img-top-static {
+  display: inline;
+  top: 0;
+  left: 0;
+}
+.button:hover .img-top-static {
+  display: none;
+}
+
+.div-centered {
+  margin: 0 auto;
+}
+
+.col--4 {
+  margin: 0 auto;
+}
+
+.heroBanner_src-pages-index-module {
+  padding-bottom: 0 !important;
+}

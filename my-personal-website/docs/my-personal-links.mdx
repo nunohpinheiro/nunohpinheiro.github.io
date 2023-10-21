@@ -1,0 +1,48 @@
+---
+sidebar_position: 1
+---
+
+# My Personal Links
+
+Feel free to check my presence across different platforms! Get in touch!
+
+export const Highlight = ({children, color, linkRef}) => (
+  <a href={linkRef}
+    style={{
+      display: 'flex',
+      backgroundColor: color,
+      borderRadius: '20px',
+      color: '#fff',
+      padding: '10px',
+      cursor: 'pointer',
+      margin: 'auto',
+      padding: '20px',
+      width: '150px',
+      textAlign: 'center',
+    }}>
+    {children}
+  </a>
+);
+
+export const Centered = ({children}) => (
+  <div
+    style={{
+      display: 'flex',
+      marginTop: '10px',
+      marginBottom: '10px',
+      height: '100%',
+      width: '100%',
+    }}>
+    {children}
+  </div>
+);
+
+<Centered>
+  <Highlight color="#0072B1" linkRef="https://linkedin.com/in/nunohpinheiro">LinkedIn</Highlight>
+  <Highlight color="#42254A" linkRef="https://github.com/nunohpinheiro">GitHub</Highlight>
+  <Highlight color="#CC7E3E" linkRef="https://stackoverflow.com/users/5220455/nunohpinheiro">Stack Overflow</Highlight>
+</Centered>
+<Centered>
+  <Highlight color="#004880" linkRef="https://nuget.org/profiles/nunohpinheiro">NuGet Gallery</Highlight>
+  <Highlight color="#DB4437" linkRef="https://scholar.google.com/citations?user=oUjyq6oAAAAJ">Google Scholar</Highlight>
+</Centered>
