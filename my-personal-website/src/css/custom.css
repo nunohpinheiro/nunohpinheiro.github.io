@@ -37,7 +37,7 @@
   height: 100%;
 }
 
-body{
+body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -74,6 +74,26 @@ footer {
 
 .collapseSidebarButton_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-CollapseButton-styles-module {
   margin-bottom: 27px !important;
+  background-image: url("../../static/img/arrow-icon-left.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+}
+
+.collapseSidebarButtonIcon_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-CollapseButton-styles-module {
+  display: none;
+}
+
+.expandButton_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Sidebar-ExpandButton-styles-module {
+  margin-bottom: 27px !important;
+  background-image: url("../../static/img/arrow-icon-right.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+}
+
+.expandButtonIcon_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Sidebar-ExpandButton-styles-module {
+  display: none;
 }
 
 a > img {
