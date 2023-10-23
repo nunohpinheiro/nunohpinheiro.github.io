@@ -104,3 +104,103 @@ a > img {
 .heroBanner_src-pages-index-module {
   padding-bottom: 0 !important;
 }
+
+.header-linkedin-link:before {
+  content: "LinkedIn";
+  display: flex;
+}
+
+.navbar__item.navbar__link.header-linkedin-link:hover:before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
+
+.navbar__item.navbar__link.header-linkedin-link:before {
+  content: "LinkedIn";
+  display: flex;
+  height: 30px;
+  width: 30px;
+  mask: url("../../static/img/linkedin-icon.png")
+  no-repeat;
+  mask-size: cover;
+  background-color: var(--ifm-navbar-link-color);
+}
+
+.header-github-link:before {
+  content: "GitHub";
+  display: flex;
+}
+
+.navbar__item.navbar__link.header-github-link:hover:before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
+
+.navbar__item.navbar__link.header-github-link:before {
+  content: "GitHub";
+  display: flex;
+  height: 30px;
+  width: 30px;
+  mask: url("../../static/img/github-icon.png")
+  no-repeat;
+  mask-size: cover;
+  background-color: var(--ifm-navbar-link-color);
+}
+
+.header-stackoverflow-link:before {
+  content: "Stack Overflow";
+  display: flex;
+}
+
+.navbar__item.navbar__link.header-stackoverflow-link:hover:before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
+
+.navbar__item.navbar__link.header-stackoverflow-link:before {
+  content: "Stack Overflow";
+  display: flex;
+  height: 30px;
+  width: 30px;
+  mask: url("../../static/img/stack-overflow-icon.png")
+  no-repeat;
+  mask-size: cover;
+  background-color: var(--ifm-navbar-link-color);
+}
+
+.header-nuget-link:before {
+  content: "NuGet Gallery";
+  display: flex;
+}
+
+.navbar__item.navbar__link.header-nuget-link:hover:before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
+
+.navbar__item.navbar__link.header-nuget-link:before {
+  content: "NuGet Gallery";
+  display: flex;
+  height: 30px;
+  width: 30px;
+  mask: url("../../static/img/nuget-icon.png")
+  no-repeat;
+  mask-size: cover;
+  background-color: var(--ifm-navbar-link-color);
+}
+
+.header-googlescholar-link:before {
+  content: "Google Scholar";
+  display: flex;
+}
+
+.navbar__item.navbar__link.header-googlescholar-link:hover:before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
+
+.navbar__item.navbar__link.header-googlescholar-link:before {
+  content: "Google Scholar";
+  display: flex;
+  height: 30px;
+  width: 30px;
+  mask: url("../../static/img/google-scholar-icon.png")
+  no-repeat;
+  mask-size: cover;
+  background-color: var(--ifm-navbar-link-color);
+}
