@@ -72,6 +72,10 @@ footer {
   color: black;
 }
 
+.collapseSidebarButton_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-CollapseButton-styles-module {
+  margin-bottom: 27px !important;
+}
+
 a > img {
   vertical-align: middle;
 }
@@ -115,7 +119,7 @@ a > img {
 }
 
 .navbar__item.navbar__link.header-linkedin-link:before {
-  content: "LinkedIn";
+  content: "";
   display: flex;
   height: 30px;
   width: 30px;
@@ -135,7 +139,7 @@ a > img {
 }
 
 .navbar__item.navbar__link.header-github-link:before {
-  content: "GitHub";
+  content: "";
   display: flex;
   height: 30px;
   width: 30px;
@@ -155,7 +159,7 @@ a > img {
 }
 
 .navbar__item.navbar__link.header-stackoverflow-link:before {
-  content: "Stack Overflow";
+  content: "";
   display: flex;
   height: 30px;
   width: 30px;
@@ -175,7 +179,7 @@ a > img {
 }
 
 .navbar__item.navbar__link.header-nuget-link:before {
-  content: "NuGet Gallery";
+  content: "";
   display: flex;
   height: 30px;
   width: 30px;
@@ -195,7 +199,7 @@ a > img {
 }
 
 .navbar__item.navbar__link.header-googlescholar-link:before {
-  content: "Google Scholar";
+  content: "";
   display: flex;
   height: 30px;
   width: 30px;
