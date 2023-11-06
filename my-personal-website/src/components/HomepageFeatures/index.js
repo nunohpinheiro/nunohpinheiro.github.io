@@ -32,13 +32,6 @@ export default function HomepageFeatures() {
                     <img src="img/links-48.png" className="img-top-static" height="30" width="30"/>
                     <img src="img/links-noback.gif" className="img-top" height="30" width="30"/>
                 </Link>
-                <Link
-                  className="button button--secondary button--lg margin-small"
-                  to="/my-blog/intro">
-                  Check my blog&nbsp;
-                    <img src="img/book-40.png" className="img-top-static" height="30" width="30"/>
-                    <img src="img/book-noback.gif" className="img-top" height="30" width="30"/>
-                </Link>
               </div>
             </div>
           </div>
