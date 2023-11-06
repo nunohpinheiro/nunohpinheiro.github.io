@@ -76,6 +76,12 @@ const config = {
         },
         items: [
           {
+            type: 'docSidebar',
+            sidebarId: 'myBlogSidebar',
+            position: 'left',
+            label: 'My blog',
+          },
+          {
             href: "https://linkedin.com/in/nunohpinheiro",
             position: "right",
             className: "header-linkedin-link",
