@@ -12,19 +12,32 @@ export default function HomepageFeatures() {
             <div className={clsx('col--4')}>
               <div className={styles.buttons}>
                 <Link
-                  className="button button--secondary button--lg"
-                  to="https://linkedin.com/in/nunohpinheiro">
+                  className="button button--secondary button--lg margin-small"
+                  to="#hi-there">
                   Get to know me&nbsp;
-                  	<img src="img/linkedin-48.png" className="img-top-static" height="30" width="30"/>
-                    <img src="img/linkedin-noback.gif" className="img-top" height="30" width="30"/>
+                  	<img src="img/person-48.png" className="img-top-static" height="30" width="30"/>
+                    <img src="img/person-noback.gif" className="img-top" height="30" width="30"/>
                 </Link>
-                &nbsp;&nbsp;&nbsp;
                 <Link
-                  className="button button--secondary button--lg"
-                  to="/hi-there/my-personal-links">
+                  className="button button--secondary button--lg margin-small"
+                  to="#work-and-studies">
+                  Work & studies&nbsp;
+                    <img src="img/library-40.png" className="img-top-static" height="30" width="30"/>
+                    <img src="img/library-noback.gif" className="img-top" height="30" width="30"/>
+                </Link>
+                <Link
+                  className="button button--secondary button--lg margin-small"
+                  to="#external-links">
                   Check the links&nbsp;
                     <img src="img/links-48.png" className="img-top-static" height="30" width="30"/>
                     <img src="img/links-noback.gif" className="img-top" height="30" width="30"/>
+                </Link>
+                <Link
+                  className="button button--secondary button--lg margin-small"
+                  to="/my-blog/intro">
+                  Check my blog&nbsp;
+                    <img src="img/book-40.png" className="img-top-static" height="30" width="30"/>
+                    <img src="img/book-noback.gif" className="img-top" height="30" width="30"/>
                 </Link>
               </div>
             </div>

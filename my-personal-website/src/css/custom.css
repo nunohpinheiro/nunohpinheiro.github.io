@@ -23,12 +23,43 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .custom-back {
   background-image: url("../../static/img/indonesia_komodo_boat.png");
   background-size: cover;
   background-position: center;
-  width: 100%;
-  height: 100%;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  height:100vh;
+  width:100%;
+  display: inline-block;
+}
+
+.aurora-sleep-hi-there {
+  display: block;
+  position: relative;
+  height: 20%;
+}
+
+.aurora-sleep-img {
+  max-height: 300px;
+  margin: auto;
+  display: block;
+}
+
+.text-hi-there {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 70%;
+  text-align: center;
 }
 
 .transparent-back {
@@ -63,17 +94,12 @@ footer {
 }
 
 .footer--dark {
-  --ifm-footer-background-color: #9BBFD4;
-  padding-top: 3px;
-  padding-bottom: 26px;
-}
-
-.footer__copyright {
-  color: black;
+  --ifm-footer-background-color: rgba(0,0,0,0);
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .collapseSidebarButton_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-CollapseButton-styles-module {
-  margin-bottom: 27px !important;
   background-image: url("../../static/img/arrow-icon-left.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -85,7 +111,6 @@ footer {
 }
 
 .expandButton_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Sidebar-ExpandButton-styles-module {
-  margin-bottom: 27px !important;
   background-image: url("../../static/img/arrow-icon-right.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -119,10 +144,30 @@ a > img {
 
 .div-centered {
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.title-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.div-centered-no-overlap {
+  width:100%;
+  position: relative;
+  display: inline-block;
 }
 
 .col--4 {
   margin: 0 auto;
+}
+
+.text-align-center {
+  text-align: center;
 }
 
 .heroBanner_src-pages-index-module {
@@ -227,4 +272,61 @@ a > img {
   no-repeat;
   mask-size: cover;
   background-color: var(--ifm-navbar-link-color);
+}
+
+.cv-timeline-work-item {
+  background-color: var(--ifm-color-primary-darker);
+  background-image: url("../../static/img/work-icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35px;
+}
+
+.cv-timeline-study-item {
+  background-color: var(--ifm-color-primary-darker);
+  background-image: url("../../static/img/study-icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35px;
+}
+
+.title-centered {
+  text-align: center;
+}
+
+.display-grid {
+  display: grid !important;
+}
+
+.margin-small {
+  margin: 5px;
+}
+
+.margin-top-set {
+  margin-top: 25px;
+}
+
+.margin-bottom-set {
+  margin-bottom: 25px;
+}
+
+.div-center-bottom-screen-fixed {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.div-center-bottom-screen-fixed-no-overload {
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
 }

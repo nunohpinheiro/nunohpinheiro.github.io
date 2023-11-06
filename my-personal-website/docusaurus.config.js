@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Nuno Pinheiro",
-  tagline: 'My public private space',
+  tagline: 'Welcome to my public private space',
   favicon: 'img/nuno-oh.png',
 
   // Set the production url of your site here
@@ -43,7 +43,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           path: './docs', //This should be the path to your docs folder
-          routeBasePath: 'hi-there'  //This should be the word that you want to set
+          routeBasePath: 'my-blog'  //This should be the word that you want to set
         },
         blog: false,
         theme: {
@@ -77,9 +77,9 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'hiThereSidebar',
+            sidebarId: 'myBlogSidebar',
             position: 'left',
-            label: 'Hi there!',
+            label: 'My blog',
           },
           {
             href: "https://linkedin.com/in/nunohpinheiro",
@@ -115,7 +115,6 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `© Nuno Pinheiro ${new Date().getFullYear()}`,
       },
       prism: {
         theme: lightCodeTheme,
