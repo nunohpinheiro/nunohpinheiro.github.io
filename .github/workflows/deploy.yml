@@ -25,6 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           cd my-personal-website
+          npm config set legacy-peer-deps true
           npm ci
       - name: Build website
         run: |

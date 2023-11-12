@@ -46,7 +46,7 @@ export default function Home() {
         <h1 className="hero__title title-centered">Hi there!</h1>
         <div className="text-hi-there">
           <p>👋 I'm Nuno and I'm happy to have you here!</p>
-          <p>I grew up in a small Portuguese valley 🌄 where everyone has a nickname and making wine 🍷 is a tradition in all families. Currently I live in Porto 🇵🇹</p>
+          <p>I grew up in a small Portuguese valley 🌄 Currently I live in Porto 🇵🇹</p>
           <p>I'm a Biomedical Engineer 🧬 turned Software Engineer 💻 and I'm working remotely for LetsGetChecked, an Irish company 🇮🇪</p>
           <p>Oh, and this is the cutest cat ever, Aurora!</p>
         </div>
