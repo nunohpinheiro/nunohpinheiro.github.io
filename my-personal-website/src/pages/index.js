@@ -46,9 +46,9 @@ export default function Home() {
         <h1 className="hero__title title-centered">Hi there!</h1>
         <div className="text-hi-there">
           <p>👋 I'm Nuno and I'm happy to have you here!</p>
-          <p>I grew up in a small Portuguese valley 🌄 Currently I live in Porto 🇵🇹</p>
-          <p>I'm a Biomedical Engineer 🧬 turned Software Engineer 💻 and I'm working remotely for LetsGetChecked, an Irish company 🇮🇪</p>
-          <p>Oh, and this is the cutest cat ever, Aurora!</p>
+          <p>I'm a Biomedical Engineer 🧬 turned Software Engineer 💻</p>
+          <p>I grew up in a small Portuguese valley and lived across different Portuguese cities 🌄 In 2024, I exchanged the pastel de nata for the stroopwafel and moved to the Netherlands... Well, I still prefer the pastel de nata!</p>
+          <p>Oh, more important than anything, please meet Aurora, the cutest cat ever!</p>
         </div>
         <div className="aurora-sleep-hi-there">
           <img src="img/aurora-sleep-noback.png" className="aurora-sleep-img" />
@@ -78,7 +78,17 @@ export default function Home() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgba(0,0,0,0)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid #fff' }}
-            date="Aug 2021 - present"
+            date="Jun 2024 - present"
+            iconClassName="cv-timeline-work-item"
+          >
+            <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">OPCW | Den Haag, the Netherlands</h4>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'rgba(0,0,0,0)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid #fff' }}
+            date="Aug 2021 - Jun 2024"
             iconClassName="cv-timeline-work-item"
           >
             <h3 className="vertical-timeline-element-title">Senior Software Engineer</h3>
